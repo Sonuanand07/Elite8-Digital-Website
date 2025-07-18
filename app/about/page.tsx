@@ -18,13 +18,20 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <Image
-                src="/about.jpg" // Ensure you place your chosen image here: public/about.jpg
-                alt="About Portrait"
-                width={500}
-                height={600}
-                className="rounded-2xl shadow-xl object-cover w-full h-auto"
-              />
+              {/* Main big portrait image */}
+              <a
+                href="https://images.unsplash.com/photo-1603415526960-f7e0328b90a3"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="https://images.unsplash.com/photo-1603415526960-f7e0328b90a3"
+                  alt="Creative Portrait"
+                  width={500}
+                  height={700}
+                  className="rounded-2xl shadow-2xl object-cover w-full h-auto"
+                />
+              </a>
             </motion.div>
 
             <motion.div

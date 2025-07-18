@@ -16,13 +16,23 @@ export default function Component() {
             <source src="https://coverr.co/videos/people-walking-under-bridge--BjzBvdCHe3" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <div className="absolute inset-0 bg-black opacity-40 dark:bg-gray-950 dark:opacity-60 z-0"></div>{" "}
+          <div className="absolute inset-0 bg-black opacity-40 dark:bg-gray-950 dark:opacity-60 z-0"></div>
           {/* Overlay */}
           <div className="container px-4 md:px-6 relative z-10 text-center max-w-4xl space-y-6">
             <FadeIn>
               <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold tracking-tighter leading-none text-white animate-fade-in-up font-serif">
                 Designing Stories, Not Just Screens.
               </h1>
+            </FadeIn>
+            {/* Large Centered GIF */}
+            <FadeIn delay={0.1}>
+              <div className="flex justify-center py-10">
+                <img
+                  src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"
+                  alt="Animated Design Preview"
+                  className="rounded-2xl shadow-2xl w-full max-w-3xl h-auto"
+                />
+              </div>
             </FadeIn>
             <FadeIn delay={0.2}>
               <p className="text-xl md:text-2xl lg:text-3xl text-primary-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in-up delay-200">
