@@ -24,16 +24,6 @@ export default function Component() {
                 Designing Stories, Not Just Screens.
               </h1>
             </FadeIn>
-            {/* Large Centered GIF */}
-            <FadeIn delay={0.1}>
-              <div className="flex justify-center py-10">
-                <img
-                  src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"
-                  alt="Animated Design Preview"
-                  className="rounded-2xl shadow-2xl w-full max-w-3xl h-auto"
-                />
-              </div>
-            </FadeIn>
             <FadeIn delay={0.2}>
               <p className="text-xl md:text-2xl lg:text-3xl text-primary-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in-up delay-200">
                 We don't just build interfaces; we sculpt digital experiences that resonate on a profound level,
@@ -77,6 +67,19 @@ export default function Component() {
               >
                 Learn More About Us
               </Link>
+            </FadeIn>
+          </div>
+        </section>
+
+        {/* Centered GIF Section */}
+        <section className="w-full py-24 md:py-36 lg:py-48 bg-transparent flex items-center justify-center">
+          <div className="container px-4 md:px-6 flex justify-center">
+            <FadeIn>
+              <img
+                src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"
+                alt="Animated Design Preview"
+                className="rounded-2xl shadow-2xl w-full max-w-3xl h-auto"
+              />
             </FadeIn>
           </div>
         </section>

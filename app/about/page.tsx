@@ -20,13 +20,13 @@ export default function AboutPage() {
             >
               {/* Main big portrait image */}
               <a
-                href="https://images.unsplash.com/photo-1603415526960-f7e0328b90a3"
+                href="https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1603415526960-f7e0328b90a3"
-                  alt="Creative Portrait"
+                  src="https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg"
+                  alt="Team Collaboration"
                   width={500}
                   height={700}
                   className="rounded-2xl shadow-2xl object-cover w-full h-auto"
